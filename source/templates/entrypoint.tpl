@@ -14,7 +14,6 @@ Multi line comment block with credits block
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
     <body>
-        {include file="{$pathDocumentRoot}/source/templates/parts/icon/sprite.tpl"}
         {include file="{$pathDocumentRoot}/source/templates/parts/header/index.tpl"}
 
         <hr>
