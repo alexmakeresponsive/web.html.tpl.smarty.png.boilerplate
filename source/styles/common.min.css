@@ -1,0 +1,194 @@
+.header-col {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-overflow-style: scrollbar; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px; } }
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
+
+body {
+  font-family: "Moscow Sans Regular";
+  font-size: 14px; }
+
+@font-face {
+  font-family: "Moscow Sans Regular";
+  src: url("/asset/font/Moscow Sans Regular.ttf"); }
+
+.header-col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%; }
+  @media (min-width: 576px) {
+    .header-col {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+              flex: 0 0 100%;
+      max-width: 100%; } }
+  @media (min-width: 768px) {
+    .header-col {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 50%;
+              flex: 0 0 50%;
+      max-width: 50%; } }
+  @media (min-width: 992px) {
+    .header-col {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 33.33333%;
+              flex: 0 0 33.33333%;
+      max-width: 33.33333%; } }
+  @media (min-width: 1200px) {
+    .header-col {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 25%;
+              flex: 0 0 25%;
+      max-width: 25%; } }
+
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-container-M-size-1 {
+  display: inline-block;
+  width: 32px;
+  height: 32px; }
+
+.icon-container-M-size-1 .icon, .icon-container-M-size-1 .icon-compass {
+  -webkit-transform: scale(0.0625, 0.0625);
+          transform: scale(0.0625, 0.0625);
+  -webkit-transform-origin: top left;
+          transform-origin: top left; }
+
+.icon-container-M-size-2 {
+  display: inline-block;
+  width: 64px;
+  height: 64px; }
+
+.icon-container-M-size-2 .icon, .icon-container-M-size-2 .icon-compass {
+  -webkit-transform: scale(0.125, 0.125);
+          transform: scale(0.125, 0.125);
+  -webkit-transform-origin: top left;
+          transform-origin: top left; }
+
+.icon-container-M-size-3 {
+  display: inline-block;
+  width: 128px;
+  height: 128px; }
+
+.icon-container-M-size-3 .icon, .icon-container-M-size-3 .icon-compass {
+  -webkit-transform: scale(0.25, 0.25);
+          transform: scale(0.25, 0.25);
+  -webkit-transform-origin: top left;
+          transform-origin: top left; }
+
+.icon-container-M-size-4 {
+  display: inline-block;
+  width: 256px;
+  height: 256px; }
+
+.icon-container-M-size-4 .icon, .icon-container-M-size-4 .icon-compass {
+  -webkit-transform: scale(0.5, 0.5);
+          transform: scale(0.5, 0.5);
+  -webkit-transform-origin: top left;
+          transform-origin: top left; }
+
+.icon, .icon-compass {
+  display: inline-block; }
+
+.icon-compass {
+  background-image: url(/asset/sprite/sprite.png);
+  background-position: 0px 0px;
+  width: 512px;
+  height: 512px; }
+
+.icon-directional {
+  background-image: url(/asset/sprite/sprite.png);
+  background-position: -512px 0px;
+  width: 512px;
+  height: 512px; }
+
+.icon-distance-1 {
+  background-image: url(/asset/sprite/sprite.png);
+  background-position: 0px -512px;
+  width: 512px;
+  height: 512px; }
+
+.icon-distance {
+  background-image: url(/asset/sprite/sprite.png);
+  background-position: -512px -512px;
+  width: 512px;
+  height: 512px; }
+
+.icon-earth-globe {
+  background-image: url(/asset/sprite/sprite.png);
+  background-position: -1024px 0px;
+  width: 512px;
+  height: 512px; }
